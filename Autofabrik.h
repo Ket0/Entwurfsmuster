@@ -2,9 +2,7 @@
 #define AUTOFABRIK_H
 
 #include <string>
-
 #include <iostream>
-
 #include "Kraftfahrzeug.h"
 #include "Kleinwagen.h"
 #include "Kombi.h"
@@ -15,7 +13,7 @@ class Autofabrik
     public:
         enum Produktart {
               klw,
-              koi,
+              koi
         };
 
         static Kraftfahrzeug* erzeugeKraftfahrzeug(Produktart type) {

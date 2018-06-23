@@ -20,7 +20,6 @@
 //
 
 #include <iostream>
-
 #include "Kraftfahrzeug.h"
 #include "Kleinwagen.h"
 #include "Kombi.h"
@@ -38,7 +37,7 @@ int main()
     Autofabrik autoFab_Potsdam;
 
     // Erzeuge Objektklasse mit Fabrik
-    Kraftfahrzeug* Dingo = autoFab_Potsdam.erzeugeKraftfahrzeug("koi");
+    Kraftfahrzeug* Dingo = autoFab_Potsdam.erzeugeKraftfahrzeug(autoFab_Potsdam.koi);
 
     return 0;
 }
