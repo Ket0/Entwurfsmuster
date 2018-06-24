@@ -1,8 +1,9 @@
 #include "Kleinwagen.h"
+#include <iostream>
 
 Kleinwagen::Kleinwagen()
 {
-    //ctor
+    std::cout << "ctor Kleinwagen\n";
 }
 
 Kleinwagen::~Kleinwagen()

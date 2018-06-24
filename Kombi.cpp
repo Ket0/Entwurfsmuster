@@ -1,8 +1,9 @@
 #include "Kombi.h"
+#include <iostream>
 
 Kombi::Kombi()
 {
-    //ctor
+    std::cout << "ctor Kombi\n";
 }
 
 Kombi::~Kombi()
