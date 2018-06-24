@@ -57,11 +57,11 @@ int main()
     // Erzeuge Fabrikobjekt
     Autofabrik autoFab_Potsdam;
 
-    // Erzeuge Objektklasse mit Fabrik
+    // Erzeuge Objekt der abgeleiteten Klasse Kombi
     Kraftfahrzeug* Dingo = autoFab_Potsdam.erzeugeKraftfahrzeug(autoFab_Potsdam.koi);
     cout << "Die Fahrzeug ID von Kombi Dingo lautet: " << Dingo -> getId() <<"\n"<<endl;
 
-    // Erzeuge zweites Objekt der Klasse Kraftfahrzeug
+    // Erzeuge Objekt der abgeleiteten Klasse Kleinwagen
     Kraftfahrzeug* Speedy = autoFab_Potsdam.erzeugeKraftfahrzeug(autoFab_Potsdam.klw);
     cout << "Die Fahrzeug ID von Kleinwagen Speedy lautet: " << Speedy -> getId() << endl;
 
